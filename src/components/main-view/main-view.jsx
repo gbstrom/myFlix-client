@@ -96,8 +96,6 @@ class MainView extends React.Component {
     });
   }
 
-  //comment 99 to see if git is hooked up properly.
-
   onLoggedOut() {
     localStorage.removeItem('token');
     localStorage.removeItem('user');
